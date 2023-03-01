@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http//schemas.android. com/tools"
+    tool:showIn ="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home">
+        </item>
+
+        <item
+            android:title="Attendance Track"
+            android:id="@+id/attend_track"
+            android:icon="@drawable/baseline_how_to_reg_24">
+        </item>
+
+        <item
+            android:title="QR Scan"
+            android:id="@+id/scan_qr"
+            android:icon="@drawable/baseline_qr_code_scanner_24">
+        </item>
+    </group>
+
+    <item android:title="General">
+        <menu>
+                <item android:title="Profile"
+                    android:id="@+id/profile"
+                    android:icon="@drawable/user"/>
+
+            <item android:title="Settings"
+                android:id="@+id/settings"
+                android:icon="@drawable/baseline_settings_24"/>
+        </menu>
+    </item>
+
+    <item android:title="Comunicate">
+        <menu>
+                <item
+                    android:title="How To Use"
+                    android:icon="@drawable/baseline_emoji_people_24"
+                    android:id="@+id/use"/>
+                <item
+                    android:title="Suggestions"
+                    android:icon="@drawable/question"
+                    android:id="@+id/sugg"/>
+                <item android:title="Share App"
+                    android:icon="@drawable/baseline_share_24"
+                    android:id="@+id/share"/>
+        </menu>
+    </item>
+</menu>
