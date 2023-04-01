@@ -7,7 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="grad_1">#8C7CE8</color>
-    <color name="grad_2">#7F6CEF</color>
-    <color name="base">#615EE8</color>
+    <color name="grad_1">#F180B8</color>
+    <color name="grad_2">#E0227D</color>
+    <color name="base">#F264A5</color>
 </resources>
