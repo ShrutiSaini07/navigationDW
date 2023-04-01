@@ -15,9 +15,44 @@
         <item name="fontFamily">@font/regular</item>
     </style>
 
+
     <style name="floating" parent="Widget.Design.FloatingActionButton">
         <item name = "android:foreground">
             @drawable/button
         </item>
     </style>
+
+    <style name="floating1" parent="Widget.Design.FloatingActionButton">
+        <item name = "android:foreground">
+            @drawable/sos
+        </item>
+    </style>
+
+
+    <style name="floating2" parent="Widget.Design.FloatingActionButton">
+        <item name = "android:foreground">
+            @drawable/trackme
+        </item>
+    </style>
+
+    <style name="floating3" parent="Widget.Design.FloatingActionButton">
+        <item name = "android:foreground">
+            @drawable/image
+        </item>
+    </style>
+
+    <style name="floating4" parent="Widget.Design.FloatingActionButton">
+        <item name = "android:foreground">
+            @drawable/video
+        </item>
+    </style>
+
+    <style name="floating5" parent="Widget.Design.FloatingActionButton">
+        <item name = "android:foreground">
+            @drawable/live
+        </item>
+    </style>
+
+
+
 </resources>
